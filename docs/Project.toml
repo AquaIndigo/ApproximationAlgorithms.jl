@@ -1,0 +1,3 @@
+[deps]
+ApproximationAlgorithms = "c822a365-c050-458d-a7e2-f6a1be5e5114"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"

@@ -1,0 +1,13 @@
+name = "ApproximationAlgorithms"
+uuid = "c822a365-c050-458d-a7e2-f6a1be5e5114"
+authors = ["Indigo <j.c.f.gauss@sjtu.edu.cn> and contributors"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.8"
+
+[targets]
+test = ["Test"]
