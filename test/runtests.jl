@@ -1,6 +1,7 @@
 using ApproximationAlgorithms
 using Test
 
-@testset "ApproximationAlgorithms.jl" begin
-    # Write your tests here.
+for testfile in readdir("./")
+    testfile == "runtests.jl" && continue
+    include(testfile)
 end
